@@ -59,8 +59,8 @@ def run_alexa():
         talk('I am in a relationship with wifi')
     elif 'joke' in command:
         talk(pyjokes.get_joke())
-    elif 'stop' in command or 'quit' in command:
-        talk('goodbye')
+    elif 'stop' in command or 'quit' in command:  # to stop alexa
+        talk('Okay, goodbye I will see you around')
         exit()
     else:
         talk('Please say the command again.')
